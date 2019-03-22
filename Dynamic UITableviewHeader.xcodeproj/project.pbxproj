@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AFAB4ACD2244772200D13AE1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AFAB4ACC2244772200D13AE1 /* AppDelegate.m */; };
+		AFAB4AD02244772200D13AE1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AFAB4ACF2244772200D13AE1 /* ViewController.m */; };
+		AFAB4AD32244772200D13AE1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFAB4AD12244772200D13AE1 /* Main.storyboard */; };
+		AFAB4AD52244772300D13AE1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFAB4AD42244772300D13AE1 /* Assets.xcassets */; };
+		AFAB4AD82244772300D13AE1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFAB4AD62244772300D13AE1 /* LaunchScreen.storyboard */; };
+		AFAB4ADB2244772300D13AE1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AFAB4ADA2244772300D13AE1 /* main.m */; };
+		AFAB4AE52244772300D13AE1 /* Dynamic_UITableviewHeaderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AFAB4AE42244772300D13AE1 /* Dynamic_UITableviewHeaderTests.m */; };
+		AFAB4AF02244772300D13AE1 /* Dynamic_UITableviewHeaderUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AFAB4AEF2244772300D13AE1 /* Dynamic_UITableviewHeaderUITests.m */; };
+		AFAB4AFF224480B100D13AE1 /* UILabel+LabelCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = AFAB4AFE224480B100D13AE1 /* UILabel+LabelCategory.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AFAB4AE12244772300D13AE1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AFAB4AC02244772200D13AE1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AFAB4AC72244772200D13AE1;
+			remoteInfo = "Dynamic UITableviewHeader";
+		};
+		AFAB4AEC2244772300D13AE1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AFAB4AC02244772200D13AE1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AFAB4AC72244772200D13AE1;
+			remoteInfo = "Dynamic UITableviewHeader";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AFAB4AC82244772200D13AE1 /* Dynamic UITableviewHeader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dynamic UITableviewHeader.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFAB4ACB2244772200D13AE1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AFAB4ACC2244772200D13AE1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AFAB4ACE2244772200D13AE1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		AFAB4ACF2244772200D13AE1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AFAB4AD22244772200D13AE1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AFAB4AD42244772300D13AE1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AFAB4AD72244772300D13AE1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AFAB4AD92244772300D13AE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AFAB4ADA2244772300D13AE1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AFAB4AE02244772300D13AE1 /* Dynamic UITableviewHeaderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Dynamic UITableviewHeaderTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFAB4AE42244772300D13AE1 /* Dynamic_UITableviewHeaderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Dynamic_UITableviewHeaderTests.m; sourceTree = "<group>"; };
+		AFAB4AE62244772300D13AE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AFAB4AEB2244772300D13AE1 /* Dynamic UITableviewHeaderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Dynamic UITableviewHeaderUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFAB4AEF2244772300D13AE1 /* Dynamic_UITableviewHeaderUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Dynamic_UITableviewHeaderUITests.m; sourceTree = "<group>"; };
+		AFAB4AF12244772300D13AE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AFAB4AFD224480B100D13AE1 /* UILabel+LabelCategory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UILabel+LabelCategory.h"; sourceTree = "<group>"; };
+		AFAB4AFE224480B100D13AE1 /* UILabel+LabelCategory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UILabel+LabelCategory.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AFAB4AC52244772200D13AE1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFAB4ADD2244772300D13AE1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFAB4AE82244772300D13AE1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AFAB4ABF2244772200D13AE1 = {
+			isa = PBXGroup;
+			children = (
+				AFAB4ACA2244772200D13AE1 /* Dynamic UITableviewHeader */,
+				AFAB4AE32244772300D13AE1 /* Dynamic UITableviewHeaderTests */,
+				AFAB4AEE2244772300D13AE1 /* Dynamic UITableviewHeaderUITests */,
+				AFAB4AC92244772200D13AE1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AFAB4AC92244772200D13AE1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AFAB4AC82244772200D13AE1 /* Dynamic UITableviewHeader.app */,
+				AFAB4AE02244772300D13AE1 /* Dynamic UITableviewHeaderTests.xctest */,
+				AFAB4AEB2244772300D13AE1 /* Dynamic UITableviewHeaderUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AFAB4ACA2244772200D13AE1 /* Dynamic UITableviewHeader */ = {
+			isa = PBXGroup;
+			children = (
+				AFAB4ACB2244772200D13AE1 /* AppDelegate.h */,
+				AFAB4ACC2244772200D13AE1 /* AppDelegate.m */,
+				AFAB4AFD224480B100D13AE1 /* UILabel+LabelCategory.h */,
+				AFAB4AFE224480B100D13AE1 /* UILabel+LabelCategory.m */,
+				AFAB4ACE2244772200D13AE1 /* ViewController.h */,
+				AFAB4ACF2244772200D13AE1 /* ViewController.m */,
+				AFAB4AD12244772200D13AE1 /* Main.storyboard */,
+				AFAB4AD42244772300D13AE1 /* Assets.xcassets */,
+				AFAB4AD62244772300D13AE1 /* LaunchScreen.storyboard */,
+				AFAB4AD92244772300D13AE1 /* Info.plist */,
+				AFAB4ADA2244772300D13AE1 /* main.m */,
+			);
+			path = "Dynamic UITableviewHeader";
+			sourceTree = "<group>";
+		};
+		AFAB4AE32244772300D13AE1 /* Dynamic UITableviewHeaderTests */ = {
+			isa = PBXGroup;
+			children = (
+				AFAB4AE42244772300D13AE1 /* Dynamic_UITableviewHeaderTests.m */,
+				AFAB4AE62244772300D13AE1 /* Info.plist */,
+			);
+			path = "Dynamic UITableviewHeaderTests";
+			sourceTree = "<group>";
+		};
+		AFAB4AEE2244772300D13AE1 /* Dynamic UITableviewHeaderUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AFAB4AEF2244772300D13AE1 /* Dynamic_UITableviewHeaderUITests.m */,
+				AFAB4AF12244772300D13AE1 /* Info.plist */,
+			);
+			path = "Dynamic UITableviewHeaderUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AFAB4AC72244772200D13AE1 /* Dynamic UITableviewHeader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AFAB4AF42244772300D13AE1 /* Build configuration list for PBXNativeTarget "Dynamic UITableviewHeader" */;
+			buildPhases = (
+				AFAB4AC42244772200D13AE1 /* Sources */,
+				AFAB4AC52244772200D13AE1 /* Frameworks */,
+				AFAB4AC62244772200D13AE1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Dynamic UITableviewHeader";
+			productName = "Dynamic UITableviewHeader";
+			productReference = AFAB4AC82244772200D13AE1 /* Dynamic UITableviewHeader.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AFAB4ADF2244772300D13AE1 /* Dynamic UITableviewHeaderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AFAB4AF72244772300D13AE1 /* Build configuration list for PBXNativeTarget "Dynamic UITableviewHeaderTests" */;
+			buildPhases = (
+				AFAB4ADC2244772300D13AE1 /* Sources */,
+				AFAB4ADD2244772300D13AE1 /* Frameworks */,
+				AFAB4ADE2244772300D13AE1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AFAB4AE22244772300D13AE1 /* PBXTargetDependency */,
+			);
+			name = "Dynamic UITableviewHeaderTests";
+			productName = "Dynamic UITableviewHeaderTests";
+			productReference = AFAB4AE02244772300D13AE1 /* Dynamic UITableviewHeaderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AFAB4AEA2244772300D13AE1 /* Dynamic UITableviewHeaderUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AFAB4AFA2244772300D13AE1 /* Build configuration list for PBXNativeTarget "Dynamic UITableviewHeaderUITests" */;
+			buildPhases = (
+				AFAB4AE72244772300D13AE1 /* Sources */,
+				AFAB4AE82244772300D13AE1 /* Frameworks */,
+				AFAB4AE92244772300D13AE1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AFAB4AED2244772300D13AE1 /* PBXTargetDependency */,
+			);
+			name = "Dynamic UITableviewHeaderUITests";
+			productName = "Dynamic UITableviewHeaderUITests";
+			productReference = AFAB4AEB2244772300D13AE1 /* Dynamic UITableviewHeaderUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AFAB4AC02244772200D13AE1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "shourov datta";
+				TargetAttributes = {
+					AFAB4AC72244772200D13AE1 = {
+						CreatedOnToolsVersion = 9.3.1;
+					};
+					AFAB4ADF2244772300D13AE1 = {
+						CreatedOnToolsVersion = 9.3.1;
+						TestTargetID = AFAB4AC72244772200D13AE1;
+					};
+					AFAB4AEA2244772300D13AE1 = {
+						CreatedOnToolsVersion = 9.3.1;
+						TestTargetID = AFAB4AC72244772200D13AE1;
+					};
+				};
+			};
+			buildConfigurationList = AFAB4AC32244772200D13AE1 /* Build configuration list for PBXProject "Dynamic UITableviewHeader" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AFAB4ABF2244772200D13AE1;
+			productRefGroup = AFAB4AC92244772200D13AE1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AFAB4AC72244772200D13AE1 /* Dynamic UITableviewHeader */,
+				AFAB4ADF2244772300D13AE1 /* Dynamic UITableviewHeaderTests */,
+				AFAB4AEA2244772300D13AE1 /* Dynamic UITableviewHeaderUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AFAB4AC62244772200D13AE1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFAB4AD82244772300D13AE1 /* LaunchScreen.storyboard in Resources */,
+				AFAB4AD52244772300D13AE1 /* Assets.xcassets in Resources */,
+				AFAB4AD32244772200D13AE1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFAB4ADE2244772300D13AE1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFAB4AE92244772300D13AE1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AFAB4AC42244772200D13AE1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFAB4AD02244772200D13AE1 /* ViewController.m in Sources */,
+				AFAB4AFF224480B100D13AE1 /* UILabel+LabelCategory.m in Sources */,
+				AFAB4ADB2244772300D13AE1 /* main.m in Sources */,
+				AFAB4ACD2244772200D13AE1 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFAB4ADC2244772300D13AE1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFAB4AE52244772300D13AE1 /* Dynamic_UITableviewHeaderTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFAB4AE72244772300D13AE1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFAB4AF02244772300D13AE1 /* Dynamic_UITableviewHeaderUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AFAB4AE22244772300D13AE1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AFAB4AC72244772200D13AE1 /* Dynamic UITableviewHeader */;
+			targetProxy = AFAB4AE12244772300D13AE1 /* PBXContainerItemProxy */;
+		};
+		AFAB4AED2244772300D13AE1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AFAB4AC72244772200D13AE1 /* Dynamic UITableviewHeader */;
+			targetProxy = AFAB4AEC2244772300D13AE1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AFAB4AD12244772200D13AE1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AFAB4AD22244772200D13AE1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AFAB4AD62244772300D13AE1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AFAB4AD72244772300D13AE1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AFAB4AF22244772300D13AE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AFAB4AF32244772300D13AE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AFAB4AF52244772300D13AE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Dynamic UITableviewHeader/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "shourob.datta.Dynamic-UITableviewHeader";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AFAB4AF62244772300D13AE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Dynamic UITableviewHeader/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "shourob.datta.Dynamic-UITableviewHeader";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AFAB4AF82244772300D13AE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Dynamic UITableviewHeaderTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "shourob.datta.Dynamic-UITableviewHeaderTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dynamic UITableviewHeader.app/Dynamic UITableviewHeader";
+			};
+			name = Debug;
+		};
+		AFAB4AF92244772300D13AE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Dynamic UITableviewHeaderTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "shourob.datta.Dynamic-UITableviewHeaderTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dynamic UITableviewHeader.app/Dynamic UITableviewHeader";
+			};
+			name = Release;
+		};
+		AFAB4AFB2244772300D13AE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Dynamic UITableviewHeaderUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "shourob.datta.Dynamic-UITableviewHeaderUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Dynamic UITableviewHeader";
+			};
+			name = Debug;
+		};
+		AFAB4AFC2244772300D13AE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Dynamic UITableviewHeaderUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "shourob.datta.Dynamic-UITableviewHeaderUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Dynamic UITableviewHeader";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AFAB4AC32244772200D13AE1 /* Build configuration list for PBXProject "Dynamic UITableviewHeader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFAB4AF22244772300D13AE1 /* Debug */,
+				AFAB4AF32244772300D13AE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AFAB4AF42244772300D13AE1 /* Build configuration list for PBXNativeTarget "Dynamic UITableviewHeader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFAB4AF52244772300D13AE1 /* Debug */,
+				AFAB4AF62244772300D13AE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AFAB4AF72244772300D13AE1 /* Build configuration list for PBXNativeTarget "Dynamic UITableviewHeaderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFAB4AF82244772300D13AE1 /* Debug */,
+				AFAB4AF92244772300D13AE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AFAB4AFA2244772300D13AE1 /* Build configuration list for PBXNativeTarget "Dynamic UITableviewHeaderUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFAB4AFB2244772300D13AE1 /* Debug */,
+				AFAB4AFC2244772300D13AE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AFAB4AC02244772200D13AE1 /* Project object */;
+}
